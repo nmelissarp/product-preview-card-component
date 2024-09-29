@@ -24,7 +24,7 @@ Users should be able to:
 ![](./screenshot.png)
 
 ### Demo
-- Live Site URL: [Live Site URL](https://product-preview-card-component-2782uz01s.vercel.app/)
+- Live Site URL: [Live Site URL](https://product-preview-card-component-kappa-two.vercel.app/)
 - Solution URL: [Solution URL](https://github.com/nmelissarp/product-preview-card-component)
 
 ## My process
