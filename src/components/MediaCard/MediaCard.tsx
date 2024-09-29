@@ -7,7 +7,7 @@ import CardMedia from '@mui/material/CardMedia'
 import Typography from '@mui/material/Typography'
 import Grid from '@mui/material/Grid'
 import Image from 'next/image';
-import './MediaCard.sass'
+import styles from './MediaCard.module.sass'
 
 
 export const MediaCard = () => {
@@ -37,13 +37,13 @@ export const MediaCard = () => {
             }}
           />
         </Grid>
-        <Grid item xs={12} sm={6} className='card-body'>
-          <CardContent className='card-content'>
-            <Typography className='typography__title1' >PERFUME</Typography>
-            <Typography variant="h4" className='typography__title2'>
+        <Grid item xs={12} sm={6} className={styles.cardBody}>
+          <CardContent className={styles.cardContent}>
+            <Typography className={styles.typography__title1} >PERFUME</Typography>
+            <Typography variant="h4" className={styles.typography__title2}>
               Gabrielle Essence Eau De Parfum
             </Typography>
-            <Typography className='typography__title3'>
+            <Typography className={styles.typography__title3}>
               A floral, solar and voluptuous interpretation composed by Olivier Polge,
               Perfumer-Creator for the House of CHANEL.
             </Typography>
@@ -77,7 +77,7 @@ export const MediaCard = () => {
           </CardContent>
           <CardActions>
             <Button 
-              className='button'
+              className={styles.button}
               startIcon={
                 <Image
                   src="Images/icon-cart.svg"
