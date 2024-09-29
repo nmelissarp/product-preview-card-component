@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# PRODUCT PREVIEW CARD COMPONENT
 
-First, run the development server:
+This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Table of contents
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Demo](#demo)
+- [My process](#my-process)
+  - [Built with](#built-with)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Overview
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### The challenge
+Users should be able to:
 
-## Learn More
+- View the optimal layout depending on their device's screen size.
+- See hover and focus states for interactive elements.
 
-To learn more about Next.js, take a look at the following resources:
+### Screenshot
+![](./screenshot.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Demo
+- Live Site URL: [Live Site URL](https://product-preview-card-component-2782uz01s.vercel.app/)
+- Solution URL: [Solution URL](https://github.com/nmelissarp/product-preview-card-component)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## My process
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Built with
+- [Next.js](https://nextjs.org/) - React framework
+- [Sass](https://nextjs.org/docs/app/building-your-application/styling/sass) - For styles
+- [vercel](https://vercel.com/home) - For Web deployment
+- Mobile-first workflow
+- Typescript
